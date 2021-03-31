@@ -1,0 +1,112 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>eCommerce Quiz</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+
+	<body>
+		<h1>eCommerce Quiz</h1>
+		<div class="container-0 container active">
+			<h2>Question 1 of 3:</h2>
+			<p class="question">
+				Which of the following is not a real eCommerce platform?
+			</p>
+			<div class="flex-container">
+				<input name="question-1" type="radio" id="shopify" value="shopify" />
+				<label for="shopify">Shopify</label>
+			</div>
+			<div class="flex-container">
+				<input
+					name="question-1"
+					type="radio"
+					id="woocommerce"
+					value="woocommerce"
+				/>
+				<label for="woocommerce">WooCommerce</label>
+			</div>
+			<div class="flex-container">
+				<input
+					name="question-1"
+					type="radio"
+					id="shopcommerce"
+					value="shopcommerce"
+				/>
+				<label for="shopcommerce">ShopCommerce</label>
+			</div>
+			<div class="flex-container">
+				<input
+					name="question-1"
+					type="radio"
+					id="bigcommerce"
+					value="bigcommerce"
+				/>
+				<label for="bigcommerce">BigCommerce</label>
+			</div>
+		</div>
+		<div class="container-1 container">
+			<h2 class="hidden">Question 2 of 3:</h2>
+			<p class="question">
+				If Shopify is so good, why are Shopify developers necessary?
+			</p>
+			<div class="flex-container">
+				<input type="radio" name="question-2" id="save-time" />
+				<label for="question-2"
+					>To save time on things like store setups and migrations</label
+				>
+			</div>
+			<div class="flex-container">
+				<input type="radio" name="question-2" id="design-options" />
+				<label for="question-2"
+					>To extend the limited design options and functionalities of themes
+					with custom code</label
+				>
+			</div>
+			<div class="flex-container">
+				<input type="radio" name="question-2" id="provide-support" />
+				<label for="question-2"
+					>To provide support with a deep understanding of how the platform
+					works and what its limitations are</label
+				>
+			</div>
+			<div class="flex-container">
+				<input type="radio" name="question-2" id="everything" />
+				<label for="question-2">All the above</label>
+			</div>
+		</div>
+		<div class="container-2 container">
+			<h2 class="hidden">Question 3 of 3:</h2>
+			<p class="question">
+				Which of the following is true about Shopify developers?
+			</p>
+			<div class="flex-container">
+				<input type="radio" name="question-3" id="well-paid" />
+				<label for="question-3">They are paid extremely well</label>
+			</div>
+			<div class="flex-container">
+				<input type="radio" name="question-3" id="high-demand" />
+				<label for="question-3">There is a high demand for them</label>
+			</div>
+			<div class="flex-container">
+				<input type="radio" name="question-3" id="need-to-know" />
+				<label for="question-3"
+					>They need to know web development, the platform itself, and the
+					liquid template language</label
+				>
+			</div>
+			<div class="flex-container">
+				<input type="radio" name="question-3" id="all-the-above" />
+				<label for="question-3">All the above</label>
+			</div>
+		</div>
+		<div class="container-3 container results">
+			<h2>Question 1: <span id="result-1"></span></h2>
+			<h2>Question 2: <span id="result-2"></span></h2>
+			<h2>Question 3: <span id="result-3"></span></h2>
+		</div>
+		<button>Next ></button>
+		<script src="./script.js"></script>
+	</body>
+</html>
